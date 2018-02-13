@@ -1,0 +1,1 @@
+modalComputadorAddEdit.on("shown.bs.modal",function(){$(this).find("input[type=text]:first").focus()});

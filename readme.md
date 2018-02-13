@@ -8,9 +8,9 @@ O back-end foi feito com micro-framework Lumen da Laravel sem nenhum tipo de aut
 
 Requisitos para colocar o projeto em produção:
 
-* Configurar o arquivo `.env` com base no `.env.example`;
-* Rodar a migração do banco para criação da estrutura base `php artisan migrate`;
-* Instale as dependencias com composer `composer install`;
+* Configure o arquivo `.env` com base no `.env.example`;
+* Instale as dependências do composer com: `composer install`;
+* Rode a migração do banco para criação da estrutura base: `php artisan migrate`;
 * Entre na pasta `/app/public` e suba um servidor local com a porta 8001: 
   * `php -S localhost:8001`
 

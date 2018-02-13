@@ -1,0 +1,1 @@
+var myAjax={get:function(t,n,e){return this.request(t,n,"GET",e)},post:function(t,n,e){return this.request(t,n,"POST",e)},request:function(t,n,e,u){$.when($.ajax({data:n,type:e,dataType:"json",url:t,done:function(t){return t}})).done(function(t){return u({status:!0,data:t})}).fail(function(t){return u({status:!1,data:t.responseJSON})})}};
