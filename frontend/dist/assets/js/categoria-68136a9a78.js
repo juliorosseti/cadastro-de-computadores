@@ -1,1 +1,0 @@
-var categoria={abreInfoBox:function(){baseComputadorInfo.stop().hide().fadeIn()},removeActive:function(){baseBtnCategoria.removeClass("active")},mostraItens:function(e){this.removeActive(),this.abreInfoBox(),$('[data-show-item="'+e+'"]').addClass("active"),tabelaComputadores.recarregaItens(e)}};
